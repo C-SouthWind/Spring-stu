@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="488d7170-49a5-4d5c-9578-0d70157cf264" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/config/Schedule/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/config/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/config/shiro/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/config/shiro/ShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysResourcesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysRoleResourcesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysRoleResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysRoleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysUserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysResourcesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysRoleResourcesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysResourcesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysRoleResourcesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysResourcesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysRoleResourcesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysUserRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/config/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysResourcesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysRoleResourcesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/templates/useradd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/web/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/templates/useradd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/config/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/config/shiro/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/config/shiro/ShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/config/shiro/ShiroRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@115.159.191.57" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@115.159.191.57" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@115.159.191.57" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zln: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@115.159.191.57" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zln: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20gERiHV9uO0v8kpj3LjEISCXiA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-11-transaction/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chj.mapper" />
+      <recent name="com.chj.demo4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaWork\ideaWork2021\spring-stu\spring-11-transaction\src\main\resources" />
+      <recent name="F:\IdeaWork\ideaWork2021\spring-stu\spring-11-transaction\src\main\java\com\chj\mapper" />
+      <recent name="F:\IdeaWork\ideaWork2021\spring-stu\spring-08-proxy\src\main\java\com\chj\demo01" />
+      <recent name="F:\IdeaWork\ideaWork2021\spring-stu\spring-06-anno\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyTest">
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chj.demo3.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chj.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chj.demo4.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chj.demo4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-11-transaction" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-09-aop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mytest.selectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-10-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Mytest" />
+      <option name="METHOD_NAME" value="selectUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="JUnit.Mytest.selectUser" />
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="488d7170-49a5-4d5c-9578-0d70157cf264" name="Default Changelist" comment="" />
+      <created>1636457823876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636457823876</updated>
+      <workItem from="1636457829348" duration="4255000" />
+      <workItem from="1636542223379" duration="3179000" />
+      <workItem from="1636545987613" duration="2023000" />
+      <workItem from="1636715799886" duration="4564000" />
+      <workItem from="1636974866099" duration="3678000" />
+      <workItem from="1637060384325" duration="8438000" />
+      <workItem from="1637150115578" duration="7092000" />
+      <workItem from="1637234737022" duration="8661000" />
+      <workItem from="1637320479050" duration="1771000" />
+      <workItem from="1637578659602" duration="5329000" />
+      <workItem from="1637669878357" duration="137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#Auto_Import" timestamp="1636720009281">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Auto_Import/0.0.1366.738@0.0.1366.738" timestamp="1636720009281" />
+    <state x="275" y="27" key="#Project_Structure" timestamp="1637580550844">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1637580550844" />
+    <state x="311" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637240163541">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="311" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1637240163541" />
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1637581883130">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1637581883130" />
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1637581463787">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1637581463787" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1637669907949">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1637669907949" />
+    <state width="1323" height="250" key="GridCell.Tab.0.bottom" timestamp="1637583613155">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1637583613155" />
+    <state width="1323" height="250" key="GridCell.Tab.0.center" timestamp="1637583613155">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1637583613155" />
+    <state width="1323" height="250" key="GridCell.Tab.0.left" timestamp="1637583613155">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1637583613155" />
+    <state width="1323" height="250" key="GridCell.Tab.0.right" timestamp="1637583613155">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1637583613155" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1637240188902">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1637240188902" />
+    <state x="177" y="21" key="SettingsEditor" timestamp="1637669987411">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="177" y="21" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1637669987411" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1637240323519">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1637240323519" />
+    <state x="449" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1637669881234">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="449" y="250" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1637669881234" />
+    <state x="57" y="63" key="new project wizard" timestamp="1637669938043">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="57" y="63" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1637669938043" />
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1637582909965">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1637582909965" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1637324146711">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1637324146711" />
+    <state x="351" y="51" key="spring file set editor" timestamp="1637580802846">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="351" y="51" key="spring file set editor/0.0.1366.738@0.0.1366.738" timestamp="1637580802846" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--第一种 下标赋值！-->
+    <!--<bean id="user" class="com.chj.pojo.User">
+       <constructor-arg index="0" value="chj学习"/>
+    </bean>-->
+
+    <!--第二种 通过类型创建 不建议使用！ -->
+  <!--  <bean id="user" class="com.chj.pojo.User">
+        <constructor-arg type="java.lang.String" value="chj"/>
+    </bean>-->
+
+    <!--第三种 直接通过参数名来设置-->
+    <bean id="user" class="com.chj.pojo.User">
+        <constructor-arg name="name" value="chj"/>
+    </bean>
+    <bean id="userT" class="com.chj.pojo.UserT">
+    </bean>
+
+    <!--别名，如果添加了别名，我们也可以使用别名获取到这个对象-->
+    <alias name="user" alias="userNew"/>
+
+
+    <!--
+    id : bean的唯一标识符，也就是相当于我们学的对象名
+    class : bean对象所对应的全限定名 ： 包名 + 类型
+    name : 也是别名
+    -->
+    <bean id="user" class="com.chj.pojo.UserT" name="u2 u3,u4;u5">
+        <property name="name" value="chj"/>
+    </bean>
+</beans>
