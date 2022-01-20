@@ -1,63 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="488d7170-49a5-4d5c-9578-0d70157cf264" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/config/Schedule/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/config/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/config/shiro/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/config/shiro/ShiroRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysResourcesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysRoleResourcesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysRoleResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysRoleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/model/SysUserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysResourcesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysRoleResourcesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/service/sys/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysResourcesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysRoleResourcesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/serviceImpl/sys/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/login/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysResourcesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysRoleResourcesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/java/com/chj/web/sys/SysUserRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysResourcesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysRoleResourcesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/mapper/SysUserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../calligraphySys/src/main/resources/templates/useradd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/web/login/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/templates/useradd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/config/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/config/shiro/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/config/shiro/ShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/config/shiro/ShiroRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/java/com/chj/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studentManagement/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../studentManagement/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,34 +75,29 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="F:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/repository" />
+        <option name="userSettingsFile" value="E:\maven3.6.3\maven3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="20gERiHV9uO0v8kpj3LjEISCXiA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-11-transaction/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -246,11 +206,25 @@
       <workItem from="1637320479050" duration="1771000" />
       <workItem from="1637578659602" duration="5329000" />
       <workItem from="1637669878357" duration="137000" />
+      <workItem from="1641988314549" duration="15000" />
+      <workItem from="1641991309302" duration="285000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Auto_Import" timestamp="1636720009281">
@@ -273,10 +247,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1637581463787" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1637669907949">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="651" y="172" key="FileChooserDialogImpl" timestamp="1641991583561">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1637669907949" />
+    <state x="651" y="172" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1641991583561" />
     <state width="1323" height="250" key="GridCell.Tab.0.bottom" timestamp="1637583613155">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -297,10 +272,15 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1637240188902" />
-    <state x="177" y="21" key="SettingsEditor" timestamp="1637669987411">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="892" y="308" key="RollbackChangesDialog" timestamp="1641988323313">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="892" y="308" key="RollbackChangesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1641988323313" />
+    <state x="550" y="262" key="SettingsEditor" timestamp="1641991589923">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="177" y="21" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1637669987411" />
+    <state x="550" y="262" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1641991589923" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1637240323519">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
